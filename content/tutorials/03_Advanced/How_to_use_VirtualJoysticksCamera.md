@@ -6,7 +6,7 @@ The VirtualJoysticksCamera will create a Babylon.js camera that can move within 
 
 It derives from the [FreeCamera](https://github.com/BabylonJS/Babylon.js/blob/master/Babylon/Cameras/babylon.freeCamera.js) to provide a FPS-like experience and instantiates 2 [VirtualJoystick](http://doc.babylonjs.com/page.php?p=25064) for you, automatically.
 
-**Note:** We’re using the [W3C Pointer Events](http://www.w3.org/TR/pointerevents/) model. To enable touch on all devices &amp; platforms, we’re using our [Hand.js polyfill](http://handjs.codeplex.com/) library. Don’t forget to include it in your project, otherwise the virtual joysticks will only work in IE.
+**Note:** We’re using the [W3C Pointer Events](http://www.w3.org/TR/pointerevents/) model. To enable touch on all devices &amp; platforms, we’re using our [Hand.js polyfill](https://github.com/deltakosh/handjs/) library. Don’t forget to include it in your project, otherwise the virtual joysticks will only work in IE.
 
 ### Using the BABYLON.VirtualJoysticksCamera camera
 
