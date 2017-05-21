@@ -22,7 +22,7 @@ Here is how you construct a Babylon.js FreeCamera:
 ```
 The FreeCamera is constructed aiming in a +z direction. The position numbers we used in the constructor above... place it in a useful starting position. FreeCameras have many properties that you can use to adjust your view. Some of the most commonly used properties are _position_, _rotation_, _speed_, _inertia_, and _fov_. The FreeCamera is also used as the base camera for many of our other cameras, so you will come to 'view' it as an old friend. Please see the [FreeCamera API page](http://doc.babylonjs.com/classes/FreeCamera) for more information.
 
-* **ArcRotateCamera** - This is a type of camera that rotates around a given target pivot. It can be controlled with cursors and mouse, or with touch events. It requires a third-party file called “hand.js”. This file is included in many of our demos, or it can be downloaded by [**clicking right here**](http://handjs.codeplex.com/releases/view/119684).
+* **ArcRotateCamera** - This is a type of camera that rotates around a given target pivot. It can be controlled with cursors and mouse, or with touch events. It requires a third-party file called “hand.js”. This file is included in many of our demos, or it can be downloaded by [**clicking right here**](https://github.com/deltakosh/handjs).
 
 Here is how you construct our handy ArcRotateCamera:
 
