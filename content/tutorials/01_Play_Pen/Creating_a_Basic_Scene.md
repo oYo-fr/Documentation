@@ -59,7 +59,7 @@ Now we load our framework files.  After the CSS, (but still inside the ```<head>
 <script src="cannon.js"></script>  <!-- optional physics engine -->
 <!-- <script src="Oimo.js"></script>  New physics engine -->
 ```
-(if you don't already have those files, you can find them here: https://github.com/BabylonJS/Babylon.js, and here: http://handjs.codeplex.com/)
+(if you don't already have those files, you can find them here: https://github.com/BabylonJS/Babylon.js, and here: https://github.com/deltakosh/handjs/)
 
 
 Next, we go inside the ```<body>``` part of the web page... and add a HTML5 canvas element, which will be used to draw our scene.
